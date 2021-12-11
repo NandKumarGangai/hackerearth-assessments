@@ -1,0 +1,47 @@
+.chartContainer {
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    padding: 1rem 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.barItem {
+    width: 80%;
+    min-height: 20rem;
+    margin: 1rem 0;
+    padding: 0.2rem 0.2rem 2rem 0.2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+
+    background-color: #100c08;
+    color: whitesmoke
+}
+
+.barItem > h2 {
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.barItem:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .chartContainer {
+        padding: 1rem 1rem;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .chartContainer {
+        padding: 1rem 1.5rem;
+    }
+}

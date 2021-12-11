@@ -1,0 +1,35 @@
+.inputContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.inputItem {
+    display: inline;
+}
+
+.updateBtn > button {
+    opacity: 0.8;
+    margin: 1rem 0;
+    background-color: blueviolet;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.updateBtn > button:hover {
+    opacity: 1;
+    margin: 1rem 0;
+    background-color: blueviolet;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
