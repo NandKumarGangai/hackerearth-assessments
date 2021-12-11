@@ -1,0 +1,6 @@
+{
+    "newsApi": {
+        "base": "https://s3-ap-southeast-1.amazonaws.com",
+        "url": "/he-public-data/newsf6e2440.json"
+    }
+}

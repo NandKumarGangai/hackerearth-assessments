@@ -1,0 +1,44 @@
+.nav > ul {
+    margin-top: 0.5rem;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav-item {
+    padding: 1rem;
+}
+
+.nav-link {
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+    background-color: #77d7b9;
+    border-radius: 5px;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: rgb(8, 8, 8);
+    background-color: #469e82;
+}
+
+.active {
+    color: rgb(22, 20, 20);
+    background-color: #469e82;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav > ul {
+        padding: 0.25rem;
+        margin-bottom: 0.5rem;
+    }
+    .nav-link {
+        padding: 0.5rem;
+    }
+}
+

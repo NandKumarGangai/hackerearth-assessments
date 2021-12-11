@@ -1,0 +1,116 @@
+/* This example is taken from codepen */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+ a {
+	 text-decoration: none;
+}
+ h1, h2 {
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 300;
+}
+
+ .card {
+	 float: left;
+	 padding: 0 1.7rem;
+	 width: 30%;
+	 margin: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+
+	.card .wrapper {
+		background-color: #fff;
+		min-height: 25rem;
+   }
+   .title {
+	   font-size: 1.75em;
+   }
+}
+
+@media only screen and (min-width: 769px) {
+    .card {
+        width: 30%;
+    }
+
+	.card .wrapper {
+		background-color: #fff;
+		min-height: 25rem;
+   }
+   .title {
+	   font-size: 1.75em;
+   }
+}
+
+ .card .wrapper {
+	 background-color: #fff;
+	 min-height: 15rem;
+	 /* height: 20rem; */
+	 position: relative;
+	 overflow: hidden;
+	 box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+ .card .wrapper:hover .data {
+	 transform: translateY(0);
+}
+ .card .data {
+	 position: absolute;
+	 bottom: 0;
+	 width: 100%;
+	 transform: translateY(calc(70px + 1em));
+	 transition: transform 0.3s;
+}
+ .card .data .content {
+	 padding: 1em;
+	 position: relative;
+	 z-index: 1;
+}
+ .card .author {
+	 font-size: 12px;
+}
+ .card .title {
+	 margin-top: 10px;
+}
+ .card .text {
+	 height: 70px;
+	 margin: 0;
+}
+ .card input[type='checkbox'] {
+	 display: none;
+}
+
+ .newsContainer .date {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 background-color: #77d7b9;
+	 color: #fff;
+	 padding: 0.8em;
+	 width: 100%;
+}
+ .newsContainer .date span {
+	 display: inline;
+	 text-align: center;
+}
+ .newsContainer .date .day {
+	 font-weight: 700;
+	 font-size: 24px;
+	 text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+ .newsContainer .date .month {
+	 text-transform: uppercase;
+}
+ .newsContainer .date .month, .newsContainer .date .year {
+	 font-size: 12px;
+}
+ .newsContainer .content {
+	 background-color: #fff;
+	 box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+ .newsContainer .title a {
+	 color: #808080;
+}
+
+ 

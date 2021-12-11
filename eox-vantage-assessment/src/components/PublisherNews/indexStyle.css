@@ -1,0 +1,20 @@
+.publisherNewsContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.publisherHeader {
+    display: 'flex';
+    justify-content: 'space-between';
+    padding: '0 1rem';
+}
+
+@media only screen and (max-width: 600px) {
+    .publisherHeader {
+        flex-direction: column;
+        margin-bottom: 0.25rem;
+    }
+}
