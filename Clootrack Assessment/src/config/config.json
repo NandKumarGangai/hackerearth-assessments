@@ -1,0 +1,6 @@
+{
+    "chartApi": {
+        "base": "https://s3-ap-southeast-1.amazonaws.com",
+        "url": "/he-public-data/chart2986176.json"
+    }
+}
