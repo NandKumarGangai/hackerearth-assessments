@@ -2,7 +2,7 @@
 This project is created using React and Redux Toolkit.
 For tooling vite is used.
 
-Live preview: https://clootrack-assessment.netlify.app/
+Live preview: https://clootrack-assessment.netlify.app/  
 Repository: https://github.com/NandKumarGangai/hackerearth-assessment
 
 Folder structure
