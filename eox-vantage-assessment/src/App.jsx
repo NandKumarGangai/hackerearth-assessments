@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import Header from './components/Header';
 import Loader from './components/Loader';
 import config from './config/config.json';
+import MOCKDATA from '../mockdata.json';
 
 const URL = `${config['newsApi'].base}${config['newsApi'].url}`
 
@@ -22,8 +23,8 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch('../mockdata.json')
-      const resJson = await res.json()
+      const res = MOCKDATA; //await fetch('../mockdata.json')
+      const resJson = MOCKDATA //await res.json()
       return resJson
     }
 
