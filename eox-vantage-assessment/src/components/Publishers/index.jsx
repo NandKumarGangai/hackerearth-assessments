@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from '../NavBar';
 import SearchComponent from '../SearchComponent';
 import PublishersCards from './PublishersCards';
 
@@ -20,7 +19,6 @@ const Publishers = ({ publishers = [] }) => {
 
     return (
         <>
-            <Navbar />
             <SearchComponent setSearchTerm={setSearchTerm} handleReset={handleReset} />
             {
                 publishersList.length === 0

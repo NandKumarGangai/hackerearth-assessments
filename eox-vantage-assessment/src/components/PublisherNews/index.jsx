@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import NewsCard from './NewsCard';
-import './indexStyle.css'
 import SearchComponent from '../SearchComponent';
 
 const PublisherNews = ({ processedNews = {} }) => {
@@ -24,7 +23,7 @@ const PublisherNews = ({ processedNews = {} }) => {
                 <Link to='/publishers'>All Publishers</Link>
             </div>
             <SearchComponent setSearchTerm={setSearchTerm} handleReset={handleReset} />
-            <div className='publisherNewsContainer'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4'>
                 {
                     (!publisherNews || publisherNews.length === 0)
                         ? <strong>No news available....</strong>

@@ -3,7 +3,7 @@
 This project is created using React JS.
 For tooling vite is used.
 
-Live preview: https://ngangai-eox-vantage-poc.netlify.app/  
+Live preview: https://ngangai-eox-vantage-poc.netlify.app/
 Repository: https://github.com/NandKumarGangai/hackerearth-assessments/tree/master/eox-vantage-assessment
 
 Folder structure

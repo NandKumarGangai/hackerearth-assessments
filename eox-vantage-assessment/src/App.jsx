@@ -22,7 +22,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch(URL)
+      const res = await fetch('../mockdata.json')
       const resJson = await res.json()
       return resJson
     }
@@ -54,19 +54,21 @@ const App = () => {
   }, [])
 
   return (
-    <Suspense fallback={renderLoader()}>
-      <Header />
+    <div className="relative bg-dark w-full mx-auto">
+      <Suspense fallback={renderLoader()}>
+        <Header />
 
-      <Route exact path={['/', '/top-news']}>
-        <TopNewsComponent topNews={newsData.rawNews} />
-      </Route>
-      <Route exact path={['/publishers']}>
-        <PublishersComponent publishers={newsData.publishers}/>
-      </Route>
-      <Route path='/news/:publisher'>
-        <PublisherNewsComponent processedNews={newsData.processedNews} />
-      </Route>
-    </Suspense>
+        <Route exact path={['/', '/top-news']}>
+          <TopNewsComponent topNews={newsData.rawNews} />
+        </Route>
+        <Route exact path={['/publishers']}>
+          <PublishersComponent publishers={newsData.publishers} />
+        </Route>
+        <Route path='/news/:publisher'>
+          <PublisherNewsComponent processedNews={newsData.processedNews} />
+        </Route>
+      </Suspense>
+    </div>
   )
 }
 
