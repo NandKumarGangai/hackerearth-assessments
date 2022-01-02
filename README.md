@@ -18,6 +18,11 @@ This repository includes the codebase of challanges attended via Hackerearth.
   Technologies used: React, Redux, Material UI, Node, Express, MongoDB  
   Code: https://github.com/NandKumarGangai/hackerearth-assessments/tree/master/phablecare-assesment  
   <hr />
+ 
+ 4. Carousel Slider   
+  Technologies used: React    
+  Code: https://github.com/NandKumarGangai/hackerearth-assessments/tree/master/carousel_slider    
+  <hr />
   
 Linkedin: [@NandkumarGangai](https://in.linkedin.com/in/nandkumar-gangai-910849123)  
 Twitter:  [@GangaiNandkumar](https://twitter.com/gangainandkumar)
