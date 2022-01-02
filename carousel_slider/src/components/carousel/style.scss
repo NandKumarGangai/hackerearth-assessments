@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  background: rgb(194, 228, 240);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .header {
+    padding: 1rem;
+  }
+}
+
+.slider {
+  max-width: 90%;
+  border: 1px solid white;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
