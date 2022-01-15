@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+  <title>LEAD-A-THON</title>
+  <style>
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 70%;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body class="center">
+  <h1>LEAD-A-THON Assessment</h1>
+  <div>
+    <h2>Please use below urls to access the data.</h2>
+    <ul>
+      <li>
+        <strong>/api</strong>
+        &nbsp;:&nbsp;This will fetch all the data in HTML format.
+        <a href="/api" target="_blank">Click here to test</a>
+      </li>
+      <li>
+        <strong>/api/:code</strong>
+        &nbsp;:&nbsp;This will fetch specific code data in HTML format.
+        <a href="/api/C87" target="_blank">Click here to test</a>
+      </li>
+      <li>
+        <strong>/api/json</strong>
+        &nbsp;:&nbsp;This will fetch all the data in JSON format.
+        <a href="/api/json" target="_blank">Click here to test</a>
+      </li>
+      <li>
+        <strong>/api/json/:code</strong>
+        &nbsp;:&nbsp;This will fetch specific code data in JSON format.
+        <a href="/api/json/C87" target="_blank">Click here to test</a>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>
