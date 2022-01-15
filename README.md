@@ -24,5 +24,11 @@ This repository includes the codebase of challanges attended via Hackerearth.
   Code: https://github.com/NandKumarGangai/hackerearth-assessments/tree/master/carousel_slider    
   <hr />
   
+ 5. LEAD-A-THON  
+  Technologies used: Nodejs, Express, Webscrapping using `cheerio`  
+  Live preview: https://lead-a-thon-ng.herokuapp.com/  
+  Code: https://github.com/NandKumarGangai/hackerearth-assessments/tree/master/lead-a-thon-assessment  
+  <hr />
+  
 Linkedin: [@NandkumarGangai](https://in.linkedin.com/in/nandkumar-gangai-910849123)  
 Twitter:  [@GangaiNandkumar](https://twitter.com/gangainandkumar)
